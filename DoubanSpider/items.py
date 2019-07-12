@@ -9,16 +9,16 @@ import scrapy
 from scrapy import Field
 
 
-class BookReviewLatestItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    title = Field()
-    review = Field()
-    book = Field()
-    user_name = Field()
-    useful_count = Field()
-    review_url = Field()
-    id = Field()
+# class BookReviewLatestItem(scrapy.Item):
+#     # define the fields for your item here like:
+#     # name = scrapy.Field()
+#     title = Field()
+#     review = Field()
+#     book = Field()
+#     user_name = Field()
+#     useful_count = Field()
+#     review_url = Field()
+#     id = Field()
 
 class MovieItem(scrapy.Item):
     collection = 'Movie'
